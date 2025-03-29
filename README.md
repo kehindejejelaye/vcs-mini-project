@@ -14,3 +14,19 @@ The goal is to gain a deeper appreciation for the inner workings of VCS by imple
 This project consists of an `index` file (the main entry point) and potentially other supporting files that implement the VCS logic. The `index` file will likely contain the core commands and functionalities of our mini VCS.
 
 By the end of this project, I aim to have a functional, albeit simplified, version control system and a clearer understanding of the principles that underpin industry-standard VCS tools.
+
+## Images
+
+This repository includes the following images to provide visual context for the project:
+
+### Git Dashboard
+
+![Git Dashboard](1.git_dashboard.png)
+
+This image shows the GitHub user dashboard specifically for this `vcs-mini-project` repository. It provides an overview of the project's status on GitHub, including files, commits, and other relevant information.
+
+### Terminal Git Commands
+
+![Terminal Git Commands](2.terminal_image.png)
+
+This image displays a terminal window demonstrating the use of Git commands. It likely showcases commands related to initializing a Git repository, adding files, making commits, or viewing the project's history. This helps illustrate the practical application of version control concepts.
