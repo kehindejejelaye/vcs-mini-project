@@ -15,6 +15,39 @@
       line-height: 1.6;
     }
 
+    nav {
+      background-color: #eee;
+      padding: 15px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #007bff;
+    }
+
     .container {
       max-width: 800px;
       margin: 50px auto;
@@ -22,6 +55,8 @@
       background-color: #fff;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      /* Add some space below the navigation */
     }
 
     h1,
@@ -65,6 +100,16 @@
 </head>
 
 <body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
   <div class="container">
     <h1>Welcome to a Tasteful Webpage</h1>
     <p>This is a simple and elegantly designed webpage, focusing on readability and a clean aesthetic. We believe that
@@ -76,8 +121,8 @@
       <li><span class="highlight">Clean Layouts:</span> Avoiding clutter to ensure focus on the content.</li>
       <li><span class="highlight">Thoughtful Typography:</span> Selecting fonts that are easy to read and visually
         appealing.</li>
-      <li><span class="highlight">Subtle Color Palettes:</span> Using colors that create a calm and inviting atmosphere.
-      </li>
+      <li><span class="highlight">Subtle Color Palettes:</span> Using colors that create a calm and inviting
+        atmosphere.</li>
     </ul>
 
     <div class="image-container">
